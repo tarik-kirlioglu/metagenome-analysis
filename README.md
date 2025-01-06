@@ -62,7 +62,7 @@ Raw-trimmed reads and assembly files are too large to store in this repository. 
    - Cluster contigs into metagenome-assembled genomes (MAGs).
    - Extract potential microbial genomes from the assembly.
      
-5. **CheckM (Quality Control of MAGs)**
+5. **Quality Control of MAGs (CheckM)**
    - Calculate completeness and contamination metrics for each MAG.
    - Generate detailed quality reports for each bin
 
