@@ -40,9 +40,8 @@ Ensure the following software is installed:
 - **Krona**: For visualization.
 
 ### Data Access
-Raw and trimmed reads are too large to store in this repository. Download them using the following links:
-- **Raw reads**: [Google Drive Link](#)
-- **Trimmed reads**: [Google Drive Link](#)
+Raw-trimmed reads and assembly files are too large to store in this repository. Download them using the following links:
+- [Google Drive Link](#https://drive.google.com/drive/u/0/folders/10XwPEKgquAP9sZEEAjOenZDISo7htNKY)
 
 ---
 
