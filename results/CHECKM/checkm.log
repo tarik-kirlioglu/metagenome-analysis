@@ -1,0 +1,22 @@
+[2025-01-05 17:12:11] INFO: CheckM v1.2.3
+[2025-01-05 17:12:11] INFO: checkm taxonomy_wf domain Bacteria -x fasta /mnt/c/users/honor/desktop/metagenomes/results/MAXBIN/ /mnt/c/users/honor/desktop/metagenomes/results/CHECKM/
+[2025-01-05 17:12:11] INFO: CheckM data: /home/tarikkk/.checkm
+[2025-01-05 17:12:11] INFO: [CheckM - taxon_set] Generate taxonomic-specific marker set.
+[2025-01-05 17:12:15] INFO: Marker set for Bacteria contains 104 marker genes arranged in 58 sets.
+[2025-01-05 17:12:15] INFO: Marker set inferred from 5449 reference genomes.
+[2025-01-05 17:12:15] INFO: Marker set written to: /mnt/c/users/honor/desktop/metagenomes/results/CHECKM/Bacteria.ms
+[2025-01-05 17:12:15] INFO: { Current stage: 0:00:03.895 || Total: 0:00:03.895 }
+[2025-01-05 17:12:15] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-01-05 17:12:15] INFO: Identifying marker genes in 4 bins with 1 threads:
+[2025-01-05 17:13:04] INFO: Saving HMM info to file.
+[2025-01-05 17:13:04] INFO: { Current stage: 0:00:48.603 || Total: 0:00:52.499 }
+[2025-01-05 17:13:04] INFO: Parsing HMM hits to marker genes:
+[2025-01-05 17:13:04] INFO: Aligning marker genes with multiple hits in a single bin:
+[2025-01-05 17:13:08] INFO: { Current stage: 0:00:04.205 || Total: 0:00:56.705 }
+[2025-01-05 17:13:08] INFO: Calculating genome statistics for 4 bins with 1 threads:
+[2025-01-05 17:13:08] INFO: { Current stage: 0:00:00.455 || Total: 0:00:57.160 }
+[2025-01-05 17:13:08] INFO: [CheckM - qa] Tabulating genome statistics.
+[2025-01-05 17:13:08] INFO: Calculating AAI between multi-copy marker genes.
+[2025-01-05 17:13:08] INFO: Reading HMM info from file.
+[2025-01-05 17:13:08] INFO: Parsing HMM hits to marker genes:
+[2025-01-05 17:13:09] INFO: { Current stage: 0:00:00.378 || Total: 0:00:57.538 }
