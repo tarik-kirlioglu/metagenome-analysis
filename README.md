@@ -41,7 +41,7 @@ Ensure the following software is installed:
 
 ### Data Access
 Raw-trimmed reads and assembly files are too large to store in this repository. Download them using the following links:
-- [Google Drive Link](#https://drive.google.com/drive/u/0/folders/10XwPEKgquAP9sZEEAjOenZDISo7htNKY)
+- [Google Drive](https://drive.google.com/drive/u/0/folders/10XwPEKgquAP9sZEEAjOenZDISo7htNKY)
 
 ---
 
