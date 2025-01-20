@@ -41,8 +41,7 @@ samples=("SRR1106693" "SRR1106699")
 for sample in ${samples[@]}
 do
     echo "Processing sample: $sample"
-
-
+    
     contig_file="/mnt/c/users/honor/desktop/metagenomes/results/assembly_${sample}/contigs.fasta"
     read1_file="/mnt/c/users/honor/desktop/metagenomes/trimmed/${sample}_1.trim.fastq.gz"
     read2_file="/mnt/c/users/honor/desktop/metagenomes/trimmed/${sample}_2.trim.fastq.gz"
