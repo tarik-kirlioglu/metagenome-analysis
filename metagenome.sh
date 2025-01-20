@@ -6,7 +6,6 @@ fastqc="/mnt/c/users/honor/desktop/metagenomes/fastqc"
 trimmed="/mnt/c/users/honor/desktop/metagenomes/trimmed"
 minikraken="/mnt/c/users/honor/desktop/metagenome/minikraken"
 
-
 echo "STEP 1:Quality Control with FASTQC"
 
 fastqc ${reads}/*.fastq.gz -o ${fastqc}/
@@ -35,7 +34,6 @@ do
 
 done
 
-
 echo "STEP 4:Metagenome Bining"
 
 samples=("SRR1106693" "SRR1106699")
@@ -50,7 +48,6 @@ do
     read2_file="/mnt/c/users/honor/desktop/metagenomes/trimmed/${sample}_2.trim.fastq.gz"
     output_prefix="/mnt/c/users/honor/desktop/metagenomes/results/MAXBIN/${sample}"
 
-    # MaxBin çalıştır
     perl /mnt/c/users/honor/desktop/software/MaxBin-2.2.7/run_MaxBin.pl -thread 6 -contig $contig_file -reads $read1_file -reads2 $read2_file -out $output_prefix
 done
 
@@ -65,7 +62,7 @@ mkdir -p ${results}/TAXONOMY_MAG
 for infile in ${results}/MAXBIN/*.001.fasta
 do
 	base=$(basename ${infile} .001.fasta)
-
+ 
 	kraken2 --db ${minikraken}/ --threads 6 -input ${infile} --output ${results}/TAXONOMY_MAG/${base}.001.kraken --report ${results}/TAXONOMY_MAG/${base}.001.report
 done
 
