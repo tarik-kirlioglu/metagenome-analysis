@@ -65,7 +65,7 @@ do
 	kraken2 --db ${minikraken}/ --threads 6 -input ${infile} --output ${results}/TAXONOMY_MAG/${base}.001.kraken --report ${results}/TAXONOMY_MAG/${base}.001.report
 done
 
-echo "STEP 7:Creating Kraken to Krona File"
+echo "STEP 6:Creating Kraken to Krona File"
 
 for infile in ${results}/TAXONOMY_MAG/*.kraken
 do
@@ -84,6 +84,6 @@ do
 	
 done
 
-echo "STEP 6:Extract Biom File for Downstream Analysis"
+echo "STEP 8:Extract Biom File for Downstream Analysis"
 
 kraken-biom ${results}/TAXONOMY_MAG/SRR1106693.001.report ${results}/TAXONOMY_MAG/SRR1106699.001.report --fmt json -o ${results}/TAXONOMY_MAG/cuatroc.biom
